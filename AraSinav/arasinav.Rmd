@@ -1,0 +1,103 @@
+---
+title: "KÜRESEL DÜZEYDE İŞGÜCÜ PİYASALARINDA KADIN İSTİHDAM ORANI"
+author: 
+  - Gülseren Sueda Bola[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 16080157, [Github Repo](https://github.com/Sueda923/AraSinav)
+
+
+
+# Giriş
+İşgücü, işsizler ve istihdamda olanların bileşiminden oluşur.
+İşgücü piyasasını analiz ederken istihdam önemli bir kavramdır.
+Üretim faktörlerinin tamamının kullanımı geniş anlamda istihdama karşılık gelirken, bu faktörlerden biri olan emek girdisi ise dar anlamda istihdamı ifade eder.
+Emek piyasaları dışında kalanlar işsizler, içinde olanlar ise istihdam edilenlerdir.
+İşgücü piyasasındaki değişmeler, herhangi bir ülkenin sosyal ve ekonomik durumu için veri niteliğindedir.
+Özellikle gelişmekte olan ülkelerin kalkınması için işgücü piyasalarında gelişme ve işsizliğin azaltılması gerekmektedir.
+Kalkınma için önemli olan bir diğer etken işgücü piyasasında kadın emek girdisinin oranıdır.
+Sosyal ve ekonomik kalkınma için kadınların işgücü piyasasındaki istihdam edilme oranları önemli veri niteliğindedir.Gelişmiş ülkelerde cinsiyet eşitliği ön plandadır ve bunun sonucunda kadın istihdamına üst düzeyde önem verilir.Buna karşın az gelişmiş, gelişmekte olan ülkelerde ise daha az önem arz etmektedir. 
+
+## Çalışmanın Amacı
+Söz konusu araştırmamız Dünya Bankası'na yüklenmiş olan; 2019 yılına ait genç kadınların ve yetişkin kadınların genel işgücüne katılım oranı, genç erkeklerin ve yetişkin erkeklerin genel işgücüne katılım oranı ve toplam genç ile toplam yetişkin nüfusun işgücüne katılım oranı verileri esas alınmıştır.
+Söz konusu proje bu verilerin işlenmesi ve yorumlanması ile ortaya konmuştur.
+Bu veriler öncelikli olarak kendi içlerinde ve daha sonraki etapta birbirleri karşılıklı etkileşimleri bağlamında analiz edilecektir.
+Konu kapsamında yalnızca kanada tarafından Dünya Bankası'na yüklenen veriler değil dünya genelinde akademik literatür dahilinde yer alan ve konumuz kapsamındaki çalışmalar da incelemeye dahil edilerek araştırmanın kapsamı genişletilmeye çalışılmıştır.
+
+## Literatür 
+@uyanik2008neoliberal Küreselleşme; 20.yüzyıldan 21.yüzyıla geçişte tüm ülkeleri sosyal ve ekonomik bağlamda etkileyen, işgücü piyasalarını da her alanda olduğu gibi yakından ilgilendiren temel bir konudur.
+İçinde bulunulan konjonktüre göre gelişmiş ve gelişmekte olan ülkeler işgücü piyasası konusunda sorunlarla karşılaşmakta ve bunu çözmeye çalışmaktadır.
+Gelişen bilgi seviyesi ve eğitim; nitelikli işçi talebini artırırken imalat sanayiinde istihdam dalgalanmasına sebep olmuştur.
+Finansal liberalizasyon, ulaşım ve iletişimdeki gelişmeler, üretim teknolojisindeki gelişmeler işgücü piyasasında dağılmalara neden olmuştur.
+
+@gurics2019oecd İşgücü, ülkelerin kalkınma sürecinde önemli bir etkendir.
+Kadınların işgücüne katılım oranı ise kalkınma ve büyüme için fazlasıyla bir öneme sahiptir.
+Fakat kadınların işgücüne katılım oranının artışı sosyal ve ekonomik nedenlerden dolayı engellenmektedir.
+Bu engellerin giderilmeye çalışılması büyüme ve kalkınmanın sürdürülebilirliği açısından oldukça önemlidir.
+Bu amaçla '' Toplumsal Cinsiyet Girişimi'' projesi yürüten OECD ; üye ülkelerde kadın istihdamının ekonometrik olarak incelenmesiyle cinsiyet eşitsizliğinin azaltılmasına yönelik politikalar geliştirmiştir.
+Bu çalışma; OECD ülkelerinde kadın istihdamı politikalarının işgücü piyasasındaki önemi, bu politikaların sürdürülebilir olması, kadınların işgücüne katılımının artırılması ve tüm bunların ekonomik gelişmede büyük rol oynaması sonucu ortaya konmuştur.
+
+@yavacs2021turkiye Günümüz şartları küreselleşme ile birlikte sürekli olarak değişmekte ve gelişmektedir.
+Genç işsizlik oranı da buna bağlı olarak Batı ülkeler de dahil olmak üzere dünya çapında ekonomik ve sosyal anlamda sorun haline gelmektedir.
+Genç işsizlik oranı 2019 yılında %13 olarak tespit edilmiştir.
+Bu oran genel işsizlik oranının 3 katını oluşturmaktır.
+15-24 yaş arasındaki grubun genç nüfusu oluşturması ve Türkiye genelinde bakıldığında 13 milyon olan bu sayı 2019 yılında genç işsizliğin %25'idir.
+İşsiz genç nüfus ise bu sayıda 1 milyon 300 bini aşmıştır.
+Bu soruna ek olarak cinsiyet penceresi de eklenmiştir.
+Bu sorun dünyanın her yerinde olduğu gibi Türkiye'de de vardır.
+Türkiye'de genç nüfusa dahil olan kadın çalışanların erkek çalışanlara oranla daha dezavantajlı olduğu görülmektedir.
+2000'li yıllarda artmaya başlayan nitelikli genç kadın işgücü oranının 2019 yılında %22'u olduğu görülmüştür.
+Erkeklerde ise nu oran %30'dur.
+Bu süreçte genç kadınların işgücüne katılma potansiyelinin yükseköğretimdeki net okullaşma potansiyeliyle bağlantılı olarak olumlu yönde etkilenmiştir.
+Fakat buna rağmen genç kadın işsizliği, genç erkek işsizlik oranına göre daha yüksektir ve daha hızlı yükselmiştir.
+Genç kadınların üçte bir oranda ne eğitim hayatında ne istihdam konusunda Türkiye'de 20-24 yaş grubundaki kadınlar açısından ortaya çıkan tablo vahim bir durumdadır.
+İncelenen makalenin çalışmasında 2000'li yıllarda genç kadın işsizliği ve genç erkek işsizliği karşılaştırmalı olarak ele alınmış, genç kadın işsizliğinin nedenlerinin temellerine inildiği ve genç kadınların işsizliğiyle ilgili işgücü politikalarının analizlerine yer verilmiştir.
+Türkiye'nin 2000'li yıllarda işgücü politikaları incelenmiş bunla ilgili değerlendirmeler yapılmıştır.
+Bu çalışmalar Ulusal İstihdam Stratejisi ve kalkınma planları baz alınarak bunlar üzerinden yapılmıştır.
+
+@durmaz2016icsgucu Hem kamu sektöründe hem özel sektörde kadınlar çeşitli engellerle karşılaştırmaktadırlar.
+Bu engeller iki sektörde de değişiklik göstermeyip benzer engellerdir.
+Bazı farklılıklar olsa bile bu farklılıklar ülkelerin gelişmişlik düzeyleriyle bağlantılı olarak ortaya çıksa dahi kadınların istihdam sorunu dünya genelinde ortak bir sorundur.
+Bu sebeplerle cinsiyet ayrımcılığı ve aile içi yönetimde görev dağılımı konuları yetişkin eğitimlerinin yapılması gerektiğini ve büyük ölçüde sosyal yapının revize edilmesini aynı zamanda ekonomik bazda önlemlerin alınması bir nebze bile olsa bu sorunun önüne geçilmesine yardımcı olacaktır.
+Bu alanda yapılan araştırmalar ortak bir sonuç vermektedir.
+Dünya genelinde toplumsal cinsiyet anlayışı kadınların istihdam içinde engel olarak devam eden istihdama girişin temel probleminin eğitim seviyesinin arttırılması ve özellikle kız çocuklarında eğitimin artırılması amacıyla politikaların geliştirilmesi, güçlendirilmesi ve mesleki eğitimde koçluk hizmetlerinin verilmesiyle desteklenmesi gerekmektedir.
+Gelişmiş olan ve en hoşgörü sahibi toplumlarda bile farklı toplumsal roller cinsiyet anlayışına bağlı olarak kadınlara yüklenmekte, bu konuda eşitçi anlayıştan uzaklaşıp kadınların işgücü piyasasından uzaklaşmasına sebep olmaktadır.
+Makalede de belirtilen çeşitli sebeplerden kadınların istihdam hayatında dezavantajlı durumda olan kadınların karşılaştığı engellerin ortadan kaldırılması için gereken okul öncesi eğitim kurumları ya da bakımevlerinin sayılarında artış olması gerektiği ve kadınların işgücü eğitiminde ve istihdamda desteklenmesi kalkınmanın artırılması için gereklidir.
+Bu bağlamda kayıt dışı istihdamın önüne geçilebilmesi gibi toplumsal refah ve kalkınma için önem arz eder.
+Ayrıca uluslararası düzeyde cinsiyetçi eşitliğe yönelik anlaşmaların uygulamalara konulması, kamunun her aşamada gereken girişimlerin yapılması ve yasalar ile yönetici düzeyindeki kadınların artırılması olumlu eylem politikalarını oluşturur.
+Son olarak da kadınların istihdam içindeki yerlerinin artırılması için çeşitli politikaların sürdürülmesi gerekir.
+
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
